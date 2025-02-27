@@ -16,6 +16,7 @@
 }
 
 body {
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-color: var(--color2);
@@ -68,38 +69,43 @@ body {
 
 @media screen and (max-width:520px) {
     .image {
-        width: 20%;
-        height: 64%;
+        width: 40%;
+        aspect-ratio: 1;
         position: absolute;
         top: 8%;
-        left: 5%;
+        left: 2%;
         bottom: 25%;
-        margin-right: 3%;
+        margin-right: 2%;
     }
     .info {
-        margin-left: 15%;
-        
+        margin-left: 15%;     
     }
 }
 
 @media screen and (max-width:1520px) {
-    
+    .image {
+        width: 12%;
+        position: absolute;
+        top: 8%;
+        left: 2%;
+        bottom: 25%;
+    }
     .info {
         margin-left: 15%;
-        
     }
 }
 
 @media screen and (max-width:450px) {
     .image {
-        width: 16%;
+        width: 19%;
         position: absolute;
         left: 7%;
         bottom: 6%;
-
     }
     .info {
-        margin-left: 30%;     
+        margin-left: 30%; 
+        font-size: x-small;
+
     }
     .Table {
         width: 97vw;
@@ -113,12 +119,19 @@ body {
         font-size: small;
     }
 }
-@media screen and (max-width:344px) {  
+@media screen and (max-width:325px) {  
+    .image {
+        width: 16%;
+        position: absolute;
+        left: 4%;
+        bottom: 6%;
+    }
     .navbar {
         width: 100vw;
     }
+
     .info {
-        margin-left: 20%; 
+        margin-left: 27%; 
     }
 }
 .border {
