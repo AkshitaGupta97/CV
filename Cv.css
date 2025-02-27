@@ -92,7 +92,10 @@ body {
 
 @media screen and (max-width:450px) {
     .image {
-        width: 19%;
+        width: 16%;
+        position: absolute;
+        left: 7%;
+        bottom: 6%;
 
     }
     .info {
