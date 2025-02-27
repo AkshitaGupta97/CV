@@ -16,7 +16,6 @@
 }
 
 body {
-    position: fixed;
     width: 100vw;
     height: 100vh;
     background-color: var(--color2);
@@ -164,6 +163,7 @@ body {
     }
 
     .info {
+        margin-top: 3%;
         margin-left: 27%; 
         font-size: x-small;
     }
