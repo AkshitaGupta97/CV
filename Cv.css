@@ -88,9 +88,9 @@ body {
 @media screen and (min-width:1350px) {
     .image {
         width: 12%;
-        height: 60%;
+        height: 64%;
         position: absolute;
-        top: 10%;
+        top: 14%;
         left: 30%;
         bottom: 25%;
     }
